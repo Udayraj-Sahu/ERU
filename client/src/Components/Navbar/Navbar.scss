@@ -1,0 +1,97 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #000000;
+	.centre {
+		.logo-container {
+			display: flex;
+			justify-content: space-between;
+			margin: 36px;
+			.logo img {
+				margin-left: 221px;
+				width: 86px;
+				height: 86px;
+				cursor: pointer;
+				color: #4191ef;
+				animation: rotateY-anim 5s linear infinite;
+			}
+			.eru img {
+				left: 53.3rem;
+				padding-right: 20px;
+				width: 82px;
+				margin-top: 21px;
+				position: absolute;
+				height: 34px;
+				cursor: pointer;
+				color: #4191ef;
+			}
+		}
+	}
+
+	.website-name {
+		margin-left: 20px;
+		font-size: 50px;
+		font-family: "Kameron", serif;
+		font-weight: bold;
+		color: #4191ef;
+	}
+
+	ul {
+		list-style: none;
+		flex: 1;
+		text-align: center;
+		color: #4191ef;
+
+		li {
+			font-family: "Oswald", sans-serif;
+			display: inline-block;
+			margin: 10px 20px;
+			font-size: 28px;
+			cursor: pointer;
+		}
+	}
+	ul li:hover {
+		color: #0d5cb6;
+	}
+
+	.whatsapp-logo {
+		z-index: 99;
+		position: fixed;
+		bottom: 26px;
+		right: 45px;
+	}
+}
+
+@keyframes rotateY-anim {
+	0% {
+		transform: rotateY(0deg);
+	}
+
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+@media (max-width: 798px) {
+	.navbar {
+		width: 182%;
+		.website-name {
+			margin-left: 40px;
+			font-size: 45px;
+		}
+		.centre {
+			.logo-container {
+				.logo img {
+					margin-left: -125px;
+				}
+				.eru img {
+					left: 22.3rem;
+				}
+			}
+		}
+		ul {
+			display: none;
+		}
+	}
+}

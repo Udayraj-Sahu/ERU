@@ -1,0 +1,22 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 20px;
+    
+    .combo-carousel{
+        padding: 10px;
+        background-color: white;
+        box-shadow: rgb(218, 206, 206);
+        margin: 20px;
+        border-radius: 5px;
+        .carousel-img img{
+            width: 100%;
+            
+        }
+        .carousel-text{
+            text-align: center;
+        }
+    }
+    
+}

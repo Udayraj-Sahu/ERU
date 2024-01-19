@@ -1,0 +1,42 @@
+.features-container {
+	padding-top: 30px;
+	padding-left: 188px;
+
+	.sec-container {
+		background-color: rgb(247, 238, 208);
+		border-radius: 16px 0px 0px 16px;
+		padding: 57px;
+		position: relative;
+		.small-text {
+			font-size: 18px;
+			line-height: 20px;
+			font-weight: 400;
+			color: #8993a4;
+			display: block;
+			text-align: left;
+			font-family: "Karma", sans-serif;
+			font-weight: bold;
+		}
+		.subheading {
+			font-size: 36px;
+			line-height: 52px;
+			font-weight: 700;
+			color: #091e42;
+			display: block;
+			text-align: left;
+			font-family: "Karma", sans-serif;
+			font-weight: bold;
+		}
+	}
+
+	.third-container {
+		padding: 8px 20px;
+		position: absolute;
+		background-color: #fff;
+		border-radius: 2px;
+		box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+		top: 62rem;
+		width: 75rem;
+		left: 15rem;
+	}
+}

@@ -1,0 +1,59 @@
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+	.hero-section img {
+		width: 100%;
+		height: 32vw;
+		object-fit: cover;
+	}
+	.text-on-img {
+		position: absolute;
+		top: 107px;
+		left: 185px;
+		color: rgb(131, 127, 126);
+		font-family: "Libre Caslon Text", serif;
+		font-size: 55px;
+	}
+	.text-on-img2 {
+		position: absolute;
+		top: 201px;
+		left: 181px;
+		color: rgb(131, 127, 126);
+		font-family: "Libre Caslon Text", serif;
+		font-size: 55px;
+	}
+	.text {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: rgb(84, 85, 85);
+		font-size: 30px;
+		font-family: "Karma", serif;
+		padding: 10px;
+		color: white;
+	}
+}
+@media (max-width: 798px) {
+	.container {
+		.hero-section img {
+			width: 173%;
+			height: 46vw;
+		}
+		.text-on-img {
+			top: 13px;
+			left: 62px;
+			font-size: 27px;
+		}
+		.text-on-img2 {
+			top: 52px;
+			left: 62px;
+			font-size: 21px;
+		}
+		.text {
+			width: 173%;
+			font-size: 27px;
+		}
+	}
+}

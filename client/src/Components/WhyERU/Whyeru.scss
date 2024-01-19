@@ -1,0 +1,17 @@
+.why-container {
+	padding: 89px;
+	padding-left: 188px;
+	max-width: 106rem;
+	.heading {
+		font-size: 50px;
+		font-family: "Karma", sans-serif;
+		font-weight: bold;
+	}
+	.container-logo-text {
+		display: grid;
+		grid-template-columns: 300px 300px 300px 300px;
+		padding: 66px 117px;
+		background-color: rgb(244, 244, 244);
+		border-radius: 32px;
+	}
+}
